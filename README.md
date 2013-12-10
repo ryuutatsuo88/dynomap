@@ -10,7 +10,7 @@ This is the minimal you need to initialize the `Dynomap` Plugin
 
 	$(".dynomap").dynomap({
 		"background": {
-			"image": "auth/asset/samples/map.jpg"
+			"image": "path to image"
 		},
 		"hotSpots": [
 			{
@@ -23,7 +23,7 @@ And here is the full set of available configurables as a initilizer
 
 	$(".dynomap").dynomap({
 		"background": {
-			"image": "auth/asset/samples/map.jpg",
+			"image": "path to image",
             "title": "alt and title attributes for image"
 		},
 		"hotSpots": [
