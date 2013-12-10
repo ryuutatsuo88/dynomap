@@ -1,0 +1,36 @@
+{
+    "name": "dynomap",
+    "title": "dynomap jquery plugin",
+    "description": "Dynomap is a responsive image map plugin that allows for multiple states of when interacting with areas on the map and custom callbacks.",
+    "keywords": [
+        "image",
+        "map",
+        "responsive",
+        "layers",
+        "events"
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "Rijad Dizdarevic",
+        "url": "http://rijaddizdarevic.com/"
+    },
+    "maintainers": [
+        {
+            "name": "Rijad Dizdarevic",
+            "url": "http://rijaddizdarevic.com/"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/ryuutatsuo88/dynomap/blob/master/MIT-LICENSE.TXT"
+        }
+    ],
+    "bugs": "https://github.com/ryuutatsuo88/dynomap/issues",
+    "homepage": "https://github.com/ryuutatsuo88/dynomap",
+    "docs": "https://github.com/ryuutatsuo88/dynomap",
+    "download": "https://github.com/ryuutatsuo88/dynomap",
+    "dependencies": {
+        "jquery": ">=1.8.2"
+    }
+}

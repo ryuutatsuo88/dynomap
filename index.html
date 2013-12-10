@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>DynoMap</title>
+		<link type="text/css" href="css/dynomap.css" rel="stylesheet">
+		<script type="text/javascript" src="js/jquery.min.js"></script>	
+		<script type="text/javascript" src="js/dynomap.js"></script>	
+		<script type="text/javascript">			
+		$(document).ready(function () {	
+			$('.dynomap').dynomap({
+          				  "background": {
+            			  	"image": "img/map.jpg",
+            				"title": ""
+          				  },
+						  "hotSpots": [
+								{
+									"area": "529,165,566,164,565,199,529,200",
+									"title": "spot0",
+									"overImg": "img/1high.png",
+									"downImg": "img/1v.png",
+									"clickedImg": "img/1high.png",
+									"visitedImg": ""
+								}, {
+									"area": "483,191,515,188,517,223,481,224",
+									"title": "spot1",
+									"overImg": "img/2high.png",
+									"clickedImg": "img/2high.png",
+									"visitedImg": ""
+								}, {
+									"area": "403,157,438,157,440,190,403,194",
+									"title": "spot2",
+									"overImg": "img/3high.png",
+									"clickedImg": "img/3high.png",
+									"visitedImg": ""
+								}, {
+									"area": "270,126,306,126,307,157,271,158",
+									"title": "spot3",
+									"overImg": "img/4high.png",
+									"clickedImg": "img/4high.png",
+									"visitedImg": ""
+								}, {
+									"area": "229,155,265,154,267,184,230,186",
+									"title": "spot4",
+									"overImg": "img/5high.png",
+									"clickedImg": "img/5high.png",
+									"visitedImg": ""
+								}, {
+									"area": "168,157,204,156,206,189,171,192",
+									"title": "spot5",
+									"overImg": "img/6high.png",
+									"clickedImg": "img/6high.png",
+									"visitedImg": ""
+								}, {
+									"area": "131,163,165,162,167,197,131,197",
+									"title": "spot6",
+									"overImg": "img/7high.png",
+									"clickedImg": "img/7high.png",
+									"visitedImg": ""
+								}, {
+									"area": "84,173,119,172,120,205,81,208",
+									"title": "spot7",
+									"overImg": "img/8high.png",
+									"clickedImg": "img/8high.png",
+									"visitedImg": ""
+								}
+						  ],
+				clicked : function ($this, index) {
+					alert("  " + index);
+				}
+			});
+		});	
+		</script>
+	</head>
+	<body>
+		<div class="dynomap"></div>
+	</body>
+</html>

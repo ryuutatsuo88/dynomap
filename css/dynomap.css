@@ -1,0 +1,68 @@
+		.dynomap-identifier {
+			position: relative;
+			width: 100%;
+			}
+		
+		.dynomap-identifier * {
+			margin: 0;
+			padding: 0;
+			border: 0;
+			}
+			
+		.dynomap-identifier .main-area {
+			position: relative;
+			top: 0;
+			left: 0;
+			overflow:hidden;
+			}
+			
+		.dynomap-identifier .main-area .main-bk-img {
+			display: block;
+			position: relative;
+			width: 100%;
+			top: 0;
+			left: 0;
+			display: block;
+			z-index: 9;
+			}
+			
+		.dynomap-identifier .main-area  map area {
+			cursor: pointer;
+			}
+			
+		.dynomap-identifier .main-area  .drill area {
+			cursor: default;
+			}
+			
+		.dynomap-identifier .main-area  .map-layer {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			z-index: 20;
+			}
+			
+		.dynomap-identifier .main-area  .area-states {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			display: none
+			}
+			
+		.dynomap-identifier .main-area  .over-layer {
+			z-index: 10;
+			}
+			
+		.dynomap-identifier .main-area  .down-layer {
+		    z-index: 11;
+			}
+			
+		.dynomap-identifier .main-area  .clicked-layer {
+			z-index: 12;
+			}
+			
+		.dynomap-identifier .main-area  .visited-layer {
+			z-index: 14;
+			}
