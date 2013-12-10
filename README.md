@@ -56,7 +56,7 @@ which area you clicked.
 
 Demos
 --------------
-Visit http://rijaddizdarevic.com/demos to find demos.
+Visit http://rijaddizdarevic.com/demo to find demos.
 
 
 Browser Support
