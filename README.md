@@ -62,14 +62,17 @@ Visit http://rijaddizdarevic.com/demo to find demos.
 Browser Support
 ---------------
 Tested on the these systems and browsers
+
 Windows 7
 - IE Ver 10
 - Firefox Ver.25
 - Chrome Ver.6
+
 Mac OSX 10.8 
 - Chrome Ver.31
 - Firefox Ver.25
 - Safari Ver.6
+
 Ipad 2 IOS 7
 - Chrome 
 - Safari	
