@@ -66,7 +66,7 @@ Tested on the these systems and browsers
 Windows 7
 - IE Ver 10
 - Firefox Ver.25
-- Chrome Ver.6
+- Chrome Ver.31
 
 Mac OSX 10.8 
 - Chrome Ver.31
