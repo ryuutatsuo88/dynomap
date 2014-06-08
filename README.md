@@ -33,10 +33,12 @@ And here is the full set of available configurables as a initilizer
 				"overImg": "path to image",
 				"downImg": "path to image",
 				"clickedImg": "path to image",
-				"visitedImg": "path to image"
+				"visitedImg": "path to image",
+				"href": "http://google.com/",
+				"target": "_blank"
 			}
 		],
-		clicked : function ($this, index) {/*callback function when area is clicked*/}
+		clicked : function ($this, index) {/*callback function when area is clicked if you used href for a hotspot this will not be called*/}
 	});
 
 	
