@@ -76,7 +76,16 @@
 					counter = 0;
 					
 					//add areas to map
-					a = $('<area class="area" id="' + number + '" coords="' + this.area + '" orig-coords="' + this.area + '"/>');
+					var a;
+					if (this.href && this.href.length > 0) {
+						a = $('<area id="' + number + '" coords="' + this.area + '" orig-coords="' + this.area + '"/>');	
+						a.attr({
+							href: this.href,
+							target: this.target
+						});
+					} else {
+						a = $('<area class="area" id="' + number + '" coords="' + this.area + '" orig-coords="' + this.area + '"/>');
+					}
 					a.attr({
 						tabindex: "0",
 						role: "button", 
@@ -162,7 +171,7 @@
 					});
 				}	
 					
-				node.find('area').bind("click",function (e) {
+				node.find('.area').bind("click",function (e) {
 					e.preventDefault();
 					e.stopPropagation();
 						node.find('.over-layer').removeAttr('style');
