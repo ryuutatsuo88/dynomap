@@ -202,7 +202,7 @@
 			};
 			
 			//responsive image map 
-			$this.adjustAreas = function (input) {
+			$this.adjustAreas = function (recursion) {
 				clearTimeout(defaults.hotspotTimeout);
 				var areaStr = null,
 					areas,
