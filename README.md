@@ -56,9 +56,6 @@ This call back function comes with two parameters. One being your Dom Node and t
 which area you clicked. 
 
 
-Demos
---------------
-Visit http://rijaddizdarevic.com/demo to find demos.
 
 
 Browser Support
